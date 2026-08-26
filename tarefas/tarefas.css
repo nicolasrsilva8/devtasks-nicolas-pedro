@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
 
 body {
@@ -16,9 +15,13 @@ body {
     line-height: 1.6;
 }
 
+
 a {
     text-decoration: none;
-    color: inherit;
+    color: #000;
+    text-align: left;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -45,6 +48,7 @@ textarea
 .header {
     background-color: #ffffff;
     border-bottom: 1px solid #e5e7eb;
+ 
 }
 
 .header-content {
@@ -69,13 +73,13 @@ textarea
     color: #64748b;
     font-weight: 500;
     transition: color 0.2s ease;
+
 }
 
 .nav a:hover,
 .nav a.active {
     color: #2563eb;
 }
-
 
 h2
 {
@@ -106,6 +110,8 @@ h3
         #eff6ff 0%,
         #ffffff 100%
     );
+
+
 }
 
 .badge {
@@ -197,7 +203,7 @@ h3
 
     color: #111827;
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
 }
 
 .list
